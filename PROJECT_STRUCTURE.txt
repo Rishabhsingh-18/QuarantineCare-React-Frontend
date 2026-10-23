@@ -1,0 +1,33 @@
+QuarantineCare/
+├── package.json
+├── index.html
+├── vite.config.js
+├── README.md
+└── src/
+    ├── main.jsx
+    ├── App.jsx
+    ├── components/
+    │   ├── AppShell.jsx
+    │   ├── PageHeader.jsx
+    │   ├── PatientTable.jsx
+    │   ├── StatCard.jsx
+    │   └── StatusBadge.jsx
+    ├── context/
+    │   ├── AuthContext.jsx
+    │   └── FacilityContext.jsx
+    ├── data/
+    │   └── demoData.js
+    ├── pages/
+    │   ├── LoginPage.jsx
+    │   ├── DashboardPage.jsx
+    │   ├── PatientsPage.jsx
+    │   ├── TemperaturesPage.jsx
+    │   ├── RoundsPage.jsx
+    │   ├── DischargePage.jsx
+    │   ├── ReportsPage.jsx
+    │   ├── ActivityPage.jsx
+    │   └── CarePlanPage.jsx
+    └── styles/
+        ├── global.css
+        ├── app.css
+        └── login.css
